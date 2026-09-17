@@ -423,7 +423,7 @@ p {
 }
 
 .contact-actions .btn {
-  margin-top: 0;
+ 
 }
 
 .lightbox {
@@ -575,10 +575,6 @@ p {
     height: 300px;
   }
 
-  .contact-actions {
-    flex-direction: column;
-    gap: 10px;
-  }
 }
 
 
@@ -596,31 +592,9 @@ p {
 }
 
 /* Final contact buttons: keep Booksy and Instagram separated and centered. */
-.contact-actions {
-  width: 100%;
-  margin: 32px auto 0;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 16px;
-}
-
-.contact-actions .btn,
-.contact-actions .text-link {
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.contact-actions .text-link {
-  margin-top: 0;
-}
 
 @media (max-width: 480px) {
-  .contact-actions {
-    gap: 18px;
-    margin-top: 28px;
-  }
+  
 }
 
 
