@@ -333,50 +333,24 @@ p {
    ========================================================= */
 
 .hero-social-bar {
-  position: absolute;
+    display: flex !important;
+    justify-content: flex-start !important;
+    align-items: center !important;
+    width: 100% !important;
+    margin-left: 0 !important;
+    margin-right: auto !important;
+    transform: none !important;
+    position: static !important;
+}
 
-  left: 40px;
-  bottom: 30px;
-
-  display: flex;
-
-  align-items: center;
-  justify-content: flex-start;
-
-  gap: 14px;
-
-  width: fit-content;
-  max-width: calc(100% - 80px);
-
-  margin: 0;
-  padding-bottom: 8px;
-
-  border-bottom: 1.5px solid rgba(0,0,0,.35);
-
-  z-index: 2;
+.hero-social-bar a {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
 }
 
 .social-icons {
   display: flex;
   gap: 10px;
-}
-
-.social-icons a {
-  width: 34px;
-  height: 34px;
-
-  border-radius: 50%;
-
-  background: rgba(255,255,255,.85);
-  border: 1px solid rgba(0,0,0,.15);
-
-  display: flex;
-
-  align-items: center;
-  justify-content: center;
-
-  color: #111;
-  text-decoration: none;
 }
 
 .social-handle {
