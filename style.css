@@ -420,6 +420,7 @@ p {
   gap: 24px;
   flex-wrap: wrap;
   margin-top: 25px;
+  margin-bottom: 25px;
 }
 
 .contact-actions .btn {
