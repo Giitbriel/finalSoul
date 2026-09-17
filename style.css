@@ -24,6 +24,7 @@ body {
   min-height: 100vh;
   font-family: 'Montserrat', sans-serif;
   background: url('tlo.png') no-repeat center top / cover;
+  background-attachment: scroll;
   color: var(--text);
   line-height: 1.65;
 }
@@ -503,7 +504,7 @@ p {
 @media (max-width: 800px) {
   body {
     background-attachment: scroll;
-    background-position: center top;
+    background-position: center top / cover no-repeat;
   }
 
   section {
