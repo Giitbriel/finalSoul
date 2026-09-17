@@ -347,6 +347,18 @@ p {
     margin-left: 0 !important;
     margin-right: 0 !important;
 }
+.social-icons a {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  background: rgba(255,255,255,.85);
+  border: 1px solid rgba(0,0,0,.15);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #111;
+  text-decoration: none;
+}
 
 .social-icons {
   display: flex;
