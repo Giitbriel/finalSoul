@@ -518,13 +518,23 @@ p {
     padding: 65px 24px;
   }
 
-  .hero-section {
-    min-height: calc(100dvh - 40px);
+  .hero-section .hero-social-bar {
+    position: relative !important;
+    left: auto !important;
+    bottom: auto !important;
+
+    margin: 45px auto 0 !important;
   }
 
-  .hero-social-bar {
-    left: 20px;
-    bottom: 22px;
+  .content-section .hero-social-bar,
+  .gallery-section .hero-social-bar,
+  .price-section .hero-social-bar,
+  .location-section .hero-social-bar {
+    position: relative !important;
+    left: auto !important;
+    bottom: auto !important;
+
+    margin: 45px auto 0 !important;
   }
 
   .services-grid,
@@ -566,9 +576,14 @@ p {
   }
 
   .hero-social-bar {
-    left: 16px;
-    bottom: 18px;
-    gap: 9px;
+    margin-top: 50px !important;
+  }
+
+  .content-section .hero-social-bar,
+  .gallery-section .hero-social-bar,
+  .price-section .hero-social-bar,
+  .location-section .hero-social-bar {
+    margin-top: 50px !important;
   }
 
   .social-handle {
@@ -699,13 +714,3 @@ p {
   font-weight: 500;
 }
 
-@media (max-width: 480px) {
-  .section-social-bar {
-    gap: 9px;
-    margin-top: 28px;
-  }
-
-  .section-social-bar .social-handle {
-    font-size: .88rem;
-  }
-}
