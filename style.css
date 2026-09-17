@@ -506,6 +506,7 @@ p {
 
 @media (max-width: 800px) {
   body {
+    background-repeat: repeat-y;
     background-size: 100% auto;
     background-attachment: scroll;
     background-position: center top;
@@ -543,6 +544,7 @@ p {
 
 @media (max-width: 480px) {
    body {
+     background-repeat: repeat-y;
     background-size: 100% auto;
     background-attachment: scroll;
     background-position: center top;
