@@ -234,14 +234,15 @@ p {
 }
 
 .hero-social-bar {
-  position: absolute;
-  left: 40px;
-  bottom: 32px;
+  position: relative;
+  left: auto;
+  bottom: auto;
   display: flex;
   align-items: center;
   gap: 14px;
-  max-width: 90%;
-  margin-top:8px;
+  width: fit-content;
+  max-width: 100%;
+  margin: 34px auto 0;
   padding-bottom: 8px;
   border-bottom: 1.5px solid rgba(0,0,0,.35);
 }
