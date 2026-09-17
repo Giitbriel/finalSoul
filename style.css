@@ -238,6 +238,7 @@ p {
   align-items: center;
   gap: 14px;
   max-width: 90%;
+  margin-top:8px;
   padding-bottom: 8px;
   border-bottom: 1.5px solid rgba(0,0,0,.35);
 }
