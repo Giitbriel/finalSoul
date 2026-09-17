@@ -417,7 +417,8 @@ p {
   justify-content: center;
   gap: 24px;
   flex-wrap: wrap;
-  margin-top: 25px;
+  margin-top: 15px;
+  margin-bottom:15px;
 }
 
 .contact-actions .btn {
