@@ -235,16 +235,17 @@ p {
 
 .hero-social-bar {
   position: relative;
-  left: auto;
-  bottom: auto;
-  display: flex;
-  align-items: left;
-  gap: 14px;
-  width: fit-content;
-  max-width: 100%;
-  margin: 34px auto 0;
-  padding-bottom: 8px;
-  border-bottom: 1.5px solid rgba(0,0,0,.35);
+left: auto;
+bottom: auto;
+display: flex;
+align-items: center;
+justify-content: flex-start;
+gap: 14px;
+width: fit-content;
+max-width: 100%;
+margin: 34px 0 0;
+padding-bottom: 8px;
+border-bottom: 1.5px solid rgba(0,0,0,.35);
 }
 
 .social-icons {
