@@ -22,9 +22,11 @@ html {
 }
 
 body {
-  min-height: 100vh;
+   min-height: 100vh;
   font-family: 'Montserrat', sans-serif;
-  background: url('tlo.png') no-repeat center top / cover fixed;
+  background: url('tlo.png') no-repeat center top / cover;
+  background-attachment: scroll;
+  background-color: #F4F2EE;
   color: var(--text);
   line-height: 1.65;
 }
@@ -504,6 +506,7 @@ p {
 
 @media (max-width: 800px) {
   body {
+    background-size: 100% auto;
     background-attachment: scroll;
     background-position: center top;
   }
@@ -539,6 +542,12 @@ p {
 }
 
 @media (max-width: 480px) {
+   body {
+    background-size: 100% auto;
+    background-attachment: scroll;
+    background-position: center top;
+  }
+
   section {
     width: 96%;
     padding: 55px 18px;
