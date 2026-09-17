@@ -23,7 +23,7 @@ html {
 body {
   min-height: 100vh;
   font-family: 'Montserrat', sans-serif;
-  background: url('tlo.png') no-repeat center top / cover fixed;
+  background: url('tlo.png') no-repeat center top / cover;
   color: var(--text);
   line-height: 1.65;
 }
